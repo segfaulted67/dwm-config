@@ -51,8 +51,9 @@ sudo make clean install
 *(Adjust these based on your actual keybindings.)*
 
 * Screenshots
-# #+CAPTION: Screenshot of my dwm setup
-# [[./screenshots/dwm.png]]
+#+CAPTION: Screenshot of my dwm setup
+- [[./screenshots/terminal.png]]
+- [[./screenshots/wallpaper.png]]
 
 # * Autostart
 # If you have an autostart script, describe it here:
