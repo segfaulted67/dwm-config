@@ -15,6 +15,7 @@ List of patches currently applied:
 - [[https://dwm.suckless.org/patches/anybar/][anybar]] to apply other statusbar
 - [[https://github.com/rose-pine/dwm][rose-pine]] colorscheme for dwm
 - [[https://dwm.suckless.org/patches/fibonacci/][fibonacci]] for fibonacci type layout(Mod+r)
+- [[https://dwm.suckless.org/patches/ewmhtags/][wemhtags]] to support xworksapaces
 
 *(Modify this list based on your actual patches.)*
 
