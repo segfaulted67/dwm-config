@@ -1,2 +1,5 @@
 config.h
-*.o
+drw.o
+dwm.o
+util.o
+dwm
