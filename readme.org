@@ -12,6 +12,8 @@ My setup aims to keep dwm minimal while adding some essential usability patches 
 
 * Applied Patches
 List of patches currently applied:
+[[https://dwm.suckless.org/patches/anybar/][anybar]] to apply other statusbar
+[[https://github.com/rose-pine/dwm][rose-pine] colorscheme for dwm
 
 *(Modify this list based on your actual patches.)*
 
@@ -21,6 +23,7 @@ To build and run this configuration, you’ll need:
 - `rofi` (for application launching)
 - `ghostty` or another terminal emulator
 - `make`, `gcc`, and `git`
+- `CaskaydiaCove Nerd Font` or any other nerd font but you have to change *fonts[] line 8:config.def.h
 - Optional: `feh`, `xsetroot`, or `polybar` for wallpaper and status bar
 
 * Installation
@@ -38,6 +41,7 @@ sudo make clean install
 - =Mod + d=: Launch dmenu
 - =Mod + b=: Toggle bar visibility
 - =Mod + Shift + q=: Quit dwm
+- =Mod + Shift + Space=: Toggle floating mode
 - =Mod + [1-9]=: Switch to workspace
 - =Mod + Shift + [1-9]=: Move window to workspace
 

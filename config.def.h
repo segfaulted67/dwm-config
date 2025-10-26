@@ -7,6 +7,10 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "CaskaydiaCove NF:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
+static const int usealtbar          = 1;        /* 1 means use non-dwm status bar */
+static const char *altbarclass      = "Polybar"; /* Alternate bar class name */
+static const char *alttrayname      = "tray";    /* Polybar tray instance name */
+static const char *altbarcmd        = "$HOME/bar.sh"; /* Alternate bar launch command */
 static const char col_gray1[]       = "#191724"; /* base */
 static const char col_gray2[]       = "#1f1d2e"; /* surface */
 static const char col_gray3[]       = "#908caa"; /* subtle */
