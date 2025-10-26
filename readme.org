@@ -1,0 +1,67 @@
+#+TITLE: My dwm Configuration
+
+* Overview
+This repository contains my personal configuration of [[https://dwm.suckless.org/][dwm]] (Dynamic Window Manager).  
+It's a minimal, keyboard-driven tiling window manager written in C and maintained by the [[https://suckless.org][suckless.org]] community.
+
+My setup aims to keep dwm minimal while adding some essential usability patches and aesthetic improvements.
+
+* Features
+- Patched and configured dwm (Dynamic Window Manager)
+- Keybindings optimized for productivity
+
+* Applied Patches
+List of patches currently applied:
+
+*(Modify this list based on your actual patches.)*
+
+* Dependencies
+To build and run this configuration, you’ll need:
+- `dwm` (base source code)
+- `rofi` (for application launching)
+- `ghostty` or another terminal emulator
+- `make`, `gcc`, and `git`
+- Optional: `feh`, `xsetroot`, or `polybar` for wallpaper and status bar
+
+* Installation
+#+BEGIN_SRC bash
+# Clone the repository
+git clone https://codeberg.org/segfaulted67/dwm-config.git
+cd dwm-config
+
+# Build and install
+sudo make clean install
+#+END_SRC
+
+* Usage
+- =Mod + Enter=: Launch terminal
+- =Mod + d=: Launch dmenu
+- =Mod + b=: Toggle bar visibility
+- =Mod + Shift + q=: Quit dwm
+- =Mod + [1-9]=: Switch to workspace
+- =Mod + Shift + [1-9]=: Move window to workspace
+
+*(Adjust these based on your actual keybindings.)*
+
+* Screenshots
+# #+CAPTION: Screenshot of my dwm setup
+# [[./screenshots/dwm.png]]
+
+# * Autostart
+# If you have an autostart script, describe it here:
+# #+BEGIN_SRC bash
+# #!/bin/sh
+# # ~/.dwm/autostart.sh
+# feh --bg-scale ~/Pictures/wallpaper.jpg &
+# picom --config ~/.config/picom/picom.conf &
+# slstatus &
+# #+END_SRC
+
+
+* Credits
+- [[https://dwm.suckless.org/][dwm]] by suckless.org  
+- [[https://github.com/siduck/chadwm][chadwm]] by siduck
+- [[https://github.com/bakkeby][bakkeby]] and other patch maintainers  
+- Inspired by various community configs
+
+
