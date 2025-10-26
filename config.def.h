@@ -1,6 +1,11 @@
 /* See LICENSE file for copyright and license details. */
 
 #include "fibonacci.c"
+#include <X11/XF86keysym.h>
+
+// Define
+#define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
+
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
@@ -100,6 +105,10 @@ static const Key keys[] = {
   // Screenshot
   { 0,                            XK_Print,  spawn,          { .v = maim } },
   { ShiftMask,                    XK_Print,  spawn,          { .v = maim_full } },
+  { 0,                            XF86XK_AudioRaiseVolume,   spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ +5%") },
+  { 0,                            XF86XK_AudioLowerVolume,   spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -5%") },
+  { 0,                            XF86XK_AudioMute,          spawn, SHCMD("pactl set-sink-mute @DEFAULT_SINK@ toggle") },
+  { 0,                            XF86XK_AudioMicMute,       spawn, SHCMD("pactl set-source-mute @DEFAULT_SOURCE@ toggle") },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
