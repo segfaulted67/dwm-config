@@ -16,6 +16,7 @@ List of patches currently applied:
 - [[https://github.com/rose-pine/dwm][rose-pine]] colorscheme for dwm
 - [[https://dwm.suckless.org/patches/fibonacci/][fibonacci]] for fibonacci type layout(Mod+r)
 - [[https://dwm.suckless.org/patches/ewmhtags/][wemhtags]] to support xworksapaces
+- [[https://dwm.suckless.org/patches/actualfullscreen/][actualfullscreen]]
 
 *(Modify this list based on your actual patches.)*
 
@@ -46,6 +47,7 @@ sudo make clean install
 - =Mod + Shift + Space=: Toggle floating mode
 - =Mod + [1-9]=: Switch to workspace
 - =Mod + r=: Switch to fibonacci layout
+- =Mod + Shift + f=: Toggle to Fullscreen
 - =Mod + Shift + [1-9]=: Move window to workspace
 
 *(Adjust these based on your actual keybindings.)*
@@ -54,17 +56,6 @@ sudo make clean install
 #+CAPTION: Screenshot of my dwm setup
 - [[./screenshots/terminal.png]]
 - [[./screenshots/wallpaper.png]]
-
-# * Autostart
-# If you have an autostart script, describe it here:
-# #+BEGIN_SRC bash
-# #!/bin/sh
-# # ~/.dwm/autostart.sh
-# feh --bg-scale ~/Pictures/wallpaper.jpg &
-# picom --config ~/.config/picom/picom.conf &
-# slstatus &
-# #+END_SRC
-
 
 * Credits
 - [[https://dwm.suckless.org/][dwm]] by suckless.org  
