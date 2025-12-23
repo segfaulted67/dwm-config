@@ -1,14 +1,10 @@
 #+TITLE: My dwm Configuration
 
 * Overview
-This repository contains my personal configuration of [[https://dwm.suckless.org/][dwm]] (Dynamic Window Manager).  
+This repository contains my personal configuration of [[https://dwm.suckless.org/][dwm]] (Dynamic Window Manager).
 It's a minimal, keyboard-driven tiling window manager written in C and maintained by the [[https://suckless.org][suckless.org]] community.
 
 My setup aims to keep dwm minimal while adding some essential usability patches and aesthetic improvements.
-
-* Features
-- Patched and configured dwm (Dynamic Window Manager)
-- Keybindings optimized for productivity
 
 * Applied Patches
 List of patches currently applied:
@@ -18,7 +14,6 @@ List of patches currently applied:
 - [[https://dwm.suckless.org/patches/ewmhtags/][wemhtags]] to support xworksapaces
 - [[https://dwm.suckless.org/patches/actualfullscreen/][actualfullscreen]]
 
-*(Modify this list based on your actual patches.)*
 
 * Dependencies
 To build and run this configuration, you’ll need:
@@ -50,7 +45,6 @@ sudo make clean install
 - =Mod + Shift + f=: Toggle to Fullscreen
 - =Mod + Shift + [1-9]=: Move window to workspace
 
-*(Adjust these based on your actual keybindings.)*
 
 * Screenshots
 #+CAPTION: Screenshot of my dwm setup
@@ -58,9 +52,9 @@ sudo make clean install
 - [[./screenshots/wallpaper.png]]
 
 * Credits
-- [[https://dwm.suckless.org/][dwm]] by suckless.org  
+- [[https://dwm.suckless.org/][dwm]] by suckless.org
 - [[https://github.com/siduck/chadwm][chadwm]] by siduck
-- [[https://github.com/bakkeby][bakkeby]] and other patch maintainers  
+- [[https://github.com/bakkeby][bakkeby]] and other patch maintainers
 - Inspired by various community configs
 
 
